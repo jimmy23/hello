@@ -1,5 +1,7 @@
 require "hello/version"
 
 module Hello
-  # Your code goes here...
+	def self.say
+		puts "hello everyone"
+	end
 end
